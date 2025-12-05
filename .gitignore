@@ -1,22 +1,146 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopSales20 - Your Ultimate E-Commerce Destination</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff7e5f, #feb47b, #86a8e7, #91eae4); /* Multi-color gradient background */
+            background-attachment: fixed;
+            color: #333;
+            min-height: 100vh;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            color: #ff7e5f;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #feb47b;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1200x400/86a8e7/ffffff?text=Welcome+to+TopSales20'); /* Placeholder hero image */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .hero h2 {
+            font-size: 3em;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background-color: rgba(255, 255, 255, 0.9);
+            margin: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product h3 {
+            color: #91eae4;
+        }
+        .product p {
+            color: #666;
+        }
+        .product button {
+            background-color: #ff7e5f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background-color: #feb47b;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TopSales20.com</h1>
+        <p>Your one-stop shop for the best deals!</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h2>Discover Amazing Products</h2>
+    </section>
+    <section id="products" class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/250x200/ff7e5f/ffffff?text=Product+1" alt="Product 1">
+            <h3>Amazing Gadget</h3>
+            <p>High-quality gadget for all your needs. Only $29.99!</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250x200/feb47b/ffffff?text=Product+2" alt="Product 2">
+            <h3>Stylish Accessory</h3>
+            <p>Elegant and functional. Grab it for $19.99!</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250x200/86a8e7/ffffff?text=Product+3" alt="Product 3">
+            <h3>Essential Item</h3>
+            <p>Perfect for everyday use. Priced at $14.99!</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250x200/91eae4/ffffff?text=Product+4" alt="Product 4">
+            <h3>Premium Product</h3>
+            <p>Top-notch quality. Only $49.99!</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 TopSales20.com. All rights reserved.</p>
+    </footer>
+</body>
+</html>
